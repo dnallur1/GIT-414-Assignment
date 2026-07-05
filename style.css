@@ -12,7 +12,7 @@ header{
     background-color: antiquewhite;
     color:black;
     text-align: center;
-    padding: 40px;
+    padding: 40px 20px;
 }
 
 nav{
@@ -24,8 +24,12 @@ nav{
 main{
     display:grid;
     grid-template-columns:1fr;
-    gap:20px;
+    gap:30px;
     padding:20px;
+}
+
+section{
+    padding: 10px 0;
 }
 
 footer{
@@ -33,9 +37,7 @@ footer{
     color: black;
     text-align: center;
     padding: 20px;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
+    width: auto;
 }
 
 /*
@@ -57,7 +59,7 @@ Medium Screen Styles
 Large Screens
 */
 
-@media screen and(min-width: 1024px){
+@media screen and (min-width: 1024px){
      main{
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -70,11 +72,11 @@ Large Screens
 XL Screens
 */
 
-@media screen and(min-width: 1280px){
+@media screen and (min-width: 1280px){
      main{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     body{
-        background-color: lightpink;
+        background-color: antiquewhite;
     }
 }
